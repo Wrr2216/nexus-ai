@@ -27,7 +27,6 @@ services:
         "18789",
       ]
 
-
   openclaw-cli:
     image: ${OPENCLAW_IMAGE:-openclaw:local}
     environment:
